@@ -1,0 +1,15 @@
+head:
+title
+body:
+heading
+paragraph
+title attribute ==> hover text
+<p title="Sakib info"> Md. Nazmus Sakib </p>
+<p title='Sakib info'> Md. Nazmus Sakib </p>
+<p title="Saki'b i'nfo"> Md. Nazmus Sakib </p>
+<p title='Saki"b i"nfo'> Md. Nazmus Sakib </p>
+Elements in HTML:
+i.Block Level Element
+==> <h1~6>,<p>
+ii.Inline Element
+==> <img>,<a>,<strong>,<u>

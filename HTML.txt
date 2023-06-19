@@ -1,0 +1,247 @@
+HTML ==> Hyper Text Markup Language
+Markup ==> Creating Basic structure
+HTML coding ==> Tag + Attribute
+
+<!DOCTYPE html>
+<html>
+ <title>Basic HTML</title>
+ <body>
+	Code Goes Here
+ </body>
+</html>
+
+WWW ==> World Wide Web ==> XHTML
+
+HTML5 ==> Semantic Tag ==> Used for SEO
+
+HTML==>
+None case sensitive language
+
+HTML has 2 parts:
+1.head(title, linking css, meta information etc)
+2.body
+
+<meta charset="UTF-8"/>
+
+<head lang="en-US">
+
+<table width="500" border="2" cellpadding="5">
+<caption>My Table</caption>
+	<thead>
+		<tr>
+			<th>ID</th>
+			<th>Tutorial Name</th>
+			<th>Price</th>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<td colspan="2">Total</td>
+			<td colspan="1">1900 Tk</td>
+		</tr>
+	</tfoot>
+	<tr>
+		<td>1</td>
+		<td>SEO</td>
+		<td>500</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>Web Design</td>
+		<td>500</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>Wordpress</td>
+		<td>500</td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td>Graphics Design</td>
+		<td>400</td>
+	</tr>
+<caption>You can also add caption here</caption>
+</table>
+
+div ==> table row ==> division ==> block level element
+p,h,img
+
+<div class="wrapper">
+	WEBSITE MAIN div Gets the wrapper class
+</div>
+
+<div id="wrapper">
+	WEBSITE MAIN div Gets the wrapper class
+</div>
+
+span ==> inline element
+<span></span>
+
+HTML List: 2 types
+i.Ordered List (1,2,3, a,b,c, A,B,C, i,ii,iii, I,II,III)
+
+<ol>
+	<li>0</li>
+	<li>1</li>
+	<li>2</li>
+	<li>3</li>
+</ol>
+
+<ol type="a">
+	<li>0</li>
+	<li>1</li>
+	<li>2</li>
+	<li>3</li>
+</ol>
+
+<ol type="A">
+	<li>0</li>
+	<li>1</li>
+	<li>2</li>
+	<li>3</li>
+</ol>
+
+<ol type="i">
+	<li>0</li>
+	<li>1</li>
+	<li>2</li>
+	<li>3</li>
+</ol>
+
+<ol type="I">
+	<li>0</li>
+	<li>1</li>
+	<li>2</li>
+	<li>3</li>
+</ol>
+
+ii.Unordered List (**)
+
+<ul>
+	<li>0</li>
+	<li>1</li>
+	<li>2</li>
+	<li>3</li>
+</ul>
+
+Detailed List:
+<dl>
+	<dt>SEO</dt>
+	<dd>-Search Engine Optimization</dd>
+	<dt>WHO</dt>
+	<dd>-World Health Organization</dd>
+</dl>
+
+Unordered list with changing style demo: disc-> circle-> square
+
+<ul>
+	<li>0</li>
+	<li>1
+		<ul>
+			<li>0</li>
+			<li>1</li>
+			<li>2
+				<ul>
+					<li>0</li>
+					<li>1
+						<ul>
+							<li>0</li>
+							<li>1
+								<ul>
+									<li>0</li>
+									<li>1</li>
+									<li>2</li>
+									<li>3</li>
+								</ul>
+							</li>
+							<li>2</li>
+							<li>3</li>
+						</ul>
+					</li>
+					<li>2</li>
+					<li>3</li>
+				</ul>
+			</li>
+			<li>3</li>
+		</ul>
+	</li>
+	<li>2</li>
+	<li>3</li>
+</ul>
+
+
+<form action="" method="">
+	<fieldset>
+	<legend>   This is our form   </legend>
+	<label>First Name:</label><br/>
+	<input type="text" name="firstName" value="Write your first name"/><br/>
+	Last Name:<br/>
+	<input type="text" name="lastName" placeholder="Write your last name"/><br/><br/>
+	Email:
+	<input type="email"/><br/>
+	Password:
+	<input type="password"/><br/>
+	Gender:
+	<input type="radio" name="gender" value="male" checked=""/>Male
+	<input type="radio" name="gender" value="female" checked/>Female<br/>
+	Country:
+	<select name="country">
+		<option>USA</option>
+		<option selected>Canada</option>
+		<option value="5">Africa</option>
+		<option>Ban</option>
+	</select><br/>
+	BirthDate:
+	<input type="date" min="1995-05-31" max="2016-06-28"/><br/>
+	Age:
+	<input type="number" min="199" max="20128"/><br/>
+	Favorite Color:
+	<input type="color"/><br/>
+	Upload CV:
+	<input type="file"/><br/>
+	Write Something:
+	<textarea rows="10" cols="50">Enter your address</textarea>
+	<input type="submit"/>
+	<input type="reset"/>
+	</fieldset>
+</form>
+
+Audio:
+
+<audio controls autoplay loop>
+	<source src="media/A1.mp3"/>
+</audio>
+
+
+<video controls autoplay loop width="600px" poster="img/car.jpg">
+	<source src="media/A2.mp4" type="video/mp4"/>
+</video>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/344Kk_4GpcY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<a href="#">Dead Link</a>
+
+&copy;
+
+&raquo;
+
+deepness of an element or div is measured by z-index
+
+<figure>
+    <img src="img/mis_1.jpg" alt="ethan-5">
+    <figcaption>Rogue Nation</figcaption>
+</figure>
+
+<blockquote>
+</blockquote>
+
+favicon:
+link inside head tag
+rel="icon" .png
+rel="shortcut icon".ico
+
+<i class="fas fa-futbol"></i>
+<i class="fas fa-volleyball-ball"></i>
+<i class="fas fa-swimmer"></i>
+
+
